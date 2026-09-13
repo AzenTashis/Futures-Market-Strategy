@@ -162,4 +162,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Author
 
-Created by Aryan Jajodia as a research and portfolio project focused on systematic trading, futures markets, and risk analysis.
+Created by Azen Tashis as a research and portfolio project focused on systematic trading, futures markets, and risk analysis.
