@@ -1,0 +1,39 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# ---- Project data & generated outputs ----
+# Raw and processed market data are re-downloadable, so they are not versioned.
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Generated charts and result tables are re-creatable by running `python main.py`.
+outputs/plots/*
+outputs/results/*
+outputs/run_log.txt
+!outputs/plots/.gitkeep
+!outputs/results/.gitkeep
+
+# Reference data (FOMC dates) IS versioned - do not ignore data/reference/
+
+# ---- Kept local, not published ----
+# Personal preparation material. Useful to me, not to a reader of the repo.
+CV_BULLETS.md
+INTERVIEW_NOTES.md
+INTERVIEW_NOTES.pdf
+
+# Charts committed for the README live in docs/ and are NOT ignored.
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp

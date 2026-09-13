@@ -1,0 +1,17 @@
+# Core data handling
+pandas>=2.0
+numpy>=1.24
+
+# Market data download (Yahoo Finance).
+# Only needed for the default --source yahoo. The alternative provider
+# (--source stooq) uses the Python standard library and needs nothing here.
+yfinance>=0.2.40
+
+# Charts
+matplotlib>=3.7
+
+# Statistical tests used in the event study (t-test)
+scipy>=1.10
+
+# Excel export of the final multi-sheet report
+openpyxl>=3.1
